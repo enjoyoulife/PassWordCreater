@@ -1,0 +1,18 @@
+#include "stdafx.h"
+#include"iostream"
+#include"stdlib.h"
+#include"time.h"
+using namespace std;
+int main()
+{ 
+	for (int num = 0; num < 10; num++)
+	{
+		for (int sum = 0; sum < 8; sum++)
+		{
+			cout << rand() % 10;//Maybe you have a better way to do this?
+		}
+		cout << endl;
+	}
+	getchar();
+	return 0;
+}
